@@ -1,0 +1,1112 @@
+(export 
+  (version "D")
+  (design
+    (source "generate_schematic.py")
+    (date "06/11/2026 12:33 PM")
+    (tool "SKiDL (2.2.3)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "generate_schematic.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "#FLG1")
+      (value "PWR_FLAG")
+      (description "Special symbol for telling ERC where power comes from")
+      (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (fields
+        (field
+          (name "Description") "Special symbol for telling ERC where power comes from")
+        (field
+          (name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7WTppQ1OhI")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:431"))
+      (libsource
+        (lib "power")
+        (part "PWR_FLAG"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "12bb34a2-e1f9-55cb-904e-04bbc93d03eb"))
+    (comp
+      (ref "#FLG2")
+      (value "PWR_FLAG")
+      (description "Special symbol for telling ERC where power comes from")
+      (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (fields
+        (field
+          (name "Description") "Special symbol for telling ERC where power comes from")
+        (field
+          (name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "uY6UTXDbxp")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:437"))
+      (libsource
+        (lib "power")
+        (part "PWR_FLAG"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "c4fed352-186a-5f82-a324-4841486d20e3"))
+    (comp
+      (ref "BTN1")
+      (value "BTN1")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "jsp3LJzjno")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:63"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "2eb3d6fa-22cf-55e2-8c85-d919b2de98ee"))
+    (comp
+      (ref "BTN2")
+      (value "BTN2")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "UxE6La0rzP")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:72"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "ccf6b482-9b4d-596f-9743-8e4c94d06701"))
+    (comp
+      (ref "BTN3")
+      (value "BTN3")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "GIoS38Rkzs")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:81"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "c5b88200-59d3-5798-a320-e04408c89154"))
+    (comp
+      (ref "C1")
+      (value "0.1uF")
+      (description "Unpolarized capacitor, small symbol")
+      (footprint "Capacitor_SMD:CP_Elec_4x4.5")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor, small symbol")
+        (field
+          (name "Footprint") "Capacitor_SMD:CP_Elec_4x4.5")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "zy_3CpObx0")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:100"))
+      (libsource
+        (lib "Device")
+        (part "C_Small"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6808d401-bf49-57ec-9777-2463c74bfa56"))
+    (comp
+      (ref "D1")
+      (value "RAPID")
+      (description "Light emitting diode")
+      (footprint "LED_THT:LED_D3.0mm")
+      (fields
+        (field
+          (name "Description") "Light emitting diode")
+        (field
+          (name "Footprint") "LED_THT:LED_D3.0mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "aqlVXJglHt")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:136"))
+      (libsource
+        (lib "Device")
+        (part "LED"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "5e90de5c-5704-5ee5-9731-386de53b3126"))
+    (comp
+      (ref "DOWN1")
+      (value "DOWN")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Jt54PTYKqr")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:208"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "a03f1cc5-0ffc-5994-960b-a0abd1626946"))
+    (comp
+      (ref "H1")
+      (value "MountingHole")
+      (description "Mounting Hole with connection")
+      (footprint "MountingHole:MountingHole_4mm_Pad_Via")
+      (fields
+        (field
+          (name "Description") "Mounting Hole with connection")
+        (field
+          (name "Footprint") "MountingHole:MountingHole_4mm_Pad_Via")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "zv0nTSL4_k")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:289"))
+      (libsource
+        (lib "Mechanical")
+        (part "MountingHole_Pad"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "68ec4420-19a6-59b0-aeec-d338cc98f667"))
+    (comp
+      (ref "H2")
+      (value "MountingHole")
+      (description "Mounting Hole with connection")
+      (footprint "MountingHole:MountingHole_4mm_Pad_Via")
+      (fields
+        (field
+          (name "Description") "Mounting Hole with connection")
+        (field
+          (name "Footprint") "MountingHole:MountingHole_4mm_Pad_Via")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "gOCM4YpX2Q")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:280"))
+      (libsource
+        (lib "Mechanical")
+        (part "MountingHole_Pad"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6b81075a-79e5-5dea-a77f-78bbd45e3977"))
+    (comp
+      (ref "J1")
+      (value "DB9_Male")
+      (description "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_Dsub:DSUB-9_Pins_Vertical_P2.77x2.84mm")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_Dsub:DSUB-9_Pins_Vertical_P2.77x2.84mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "u8OZXW_lRa")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:180"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x09"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "cde7a5e6-4256-58d9-aad6-899cffceecff"))
+    (comp
+      (ref "J2")
+      (value "UPDI")
+      (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "SvT9YHMQ4z")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:127"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x06"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "5cb049e8-4e42-56a6-8e21-6f435c162d16"))
+    (comp
+      (ref "JUMP1")
+      (value "JUMP")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "WbqV8iIALl")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:189"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "e26818c8-8c7f-54b8-9ef4-9262ae19f95b"))
+    (comp
+      (ref "LEFT1")
+      (value "LEFT")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7lh6GKX846")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:217"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "89cc2ab7-c292-5a58-898e-38c67ce0b91e"))
+    (comp
+      (ref "R1")
+      (value "1K")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "H2x86g9cFB")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:145"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "1840c26d-4a66-53a5-b09f-68da13f766a5"))
+    (comp
+      (ref "R10")
+      (value "0")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "02w6_DGDOX")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:262"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "9cf84444-93b7-5a4e-a3f2-8e28c672bd78"))
+    (comp
+      (ref "R11")
+      (value "0")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "9ypGhV0lXz")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:271"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "8277e4db-ac0f-51d1-9c04-0edf1d5646f3"))
+    (comp
+      (ref "R2")
+      (value "1K")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "3pYfltUATV")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:163"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "d587e198-da91-5fcd-ac00-f7b271e3aaab"))
+    (comp
+      (ref "R3")
+      (value "330")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "FC4rYgEzgD")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:109"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "13ebb01d-f324-5baa-8e72-d1ffba9569e6"))
+    (comp
+      (ref "R4")
+      (value "1K")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "tbNTBUs7tK")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:118"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "96afc101-72b6-5c23-8250-77679226754e"))
+    (comp
+      (ref "R5")
+      (value "1K")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "vlfAl8CSKq")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:154"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "8d2f7edc-cab2-5dee-8670-1fbc18da59b3"))
+    (comp
+      (ref "R6")
+      (value "1K")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "IRsgAuQfyA")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:172"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "41534dac-99e3-5839-997e-1be42e37278e"))
+    (comp
+      (ref "R7")
+      (value "0")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "WL7_GctU6l")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:235"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "68e52b30-527c-5c37-9541-d97e8cbac8ab"))
+    (comp
+      (ref "R8")
+      (value "0")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "OISCOlCIyE")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:244"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "2e4e2cd3-8744-5132-9793-c971a8bd342f"))
+    (comp
+      (ref "R9")
+      (value "0")
+      (description "Resistor, US symbol")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description") "Resistor, US symbol")
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "O8G3ccRvQB")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:253"))
+      (libsource
+        (lib "Device")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "e8f1bc98-11d7-5784-8a3f-304c2c44e313"))
+    (comp
+      (ref "RAPID1")
+      (value "RAPID")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7hQpsli5uf")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:54"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6d5aacce-f010-5608-9397-6a545872b3d4"))
+    (comp
+      (ref "RIGHT1")
+      (value "RIGHT")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ERqAAMxXZ4")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:226"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "104945d7-7195-541b-a72f-cbc90de2674d"))
+    (comp
+      (ref "U1")
+      (value "ATtiny814-SS")
+      (description "20MHz, 8kB Flash, 512B SRAM, 128B EEPROM, SOIC-14")
+      (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (fields
+        (field
+          (name "Description") "20MHz, 8kB Flash, 512B SRAM, 128B EEPROM, SOIC-14")
+        (field
+          (name "Footprint") "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+        (field
+          (name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf")
+        (field
+          (name "SKiDL Tag") "2HBE71BIus")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:91"))
+      (libsource
+        (lib "MCU_Microchip_ATtiny")
+        (part "ATtiny814-SS"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "d82044cb-6fdd-555b-a3d5-713946722cdb"))
+    (comp
+      (ref "UP1")
+      (value "UP")
+      (description "Push button switch, generic, two pins")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description") "Push button switch, generic, two pins")
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "gIHcQMJKmR")
+        (field
+          (name "SKiDL Line") "generate_schematic.py:199"))
+      (libsource
+        (lib "Switch")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "81fefd5d-c4b1-5370-8319-9ccd43ac163f")))
+  (nets
+    (net
+      (code 1)
+      (name "+5V")
+      (class "Default")
+      (node
+        (ref "#FLG1")
+        (pin "1")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "C1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "6")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J2")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "1")
+        (pintype "POWER-IN")))
+    (net
+      (code 2)
+      (name "BTN2")
+      (class "Default")
+      (node
+        (ref "BTN2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "7")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 3)
+      (name "BTN3")
+      (class "Default")
+      (node
+        (ref "BTN3")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "6")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 4)
+      (name "D1_K")
+      (class "Default")
+      (node
+        (ref "D1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R3")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 5)
+      (name "DOWN")
+      (class "Default")
+      (node
+        (ref "DOWN1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "7")
+        (pintype "PASSIVE")))
+    (net
+      (code 6)
+      (name "DOWN_GND")
+      (class "Default")
+      (node
+        (ref "DOWN1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R9")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 7)
+      (name "FIRE")
+      (class "Default")
+      (node
+        (ref "BTN1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "8")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R4")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "5")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U1")
+        (pin "8")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 8)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "#FLG2")
+        (pin "1")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "BTN1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "BTN2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "BTN3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "H1")
+        (pin "1")
+        (pintype "INPUT"))
+      (node
+        (ref "H2")
+        (pin "1")
+        (pintype "INPUT"))
+      (node
+        (ref "J1")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J2")
+        (pin "6")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R10")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R11")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R4")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R5")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R6")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R7")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R8")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R9")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RAPID1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "14")
+        (pintype "POWER-IN")))
+    (net
+      (code 9)
+      (name "JUMP_GND")
+      (class "Default")
+      (node
+        (ref "JUMP1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R7")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 10)
+      (name "LEFT")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "5")
+        (pintype "PASSIVE"))
+      (node
+        (ref "LEFT1")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 11)
+      (name "LEFT_GND")
+      (class "Default")
+      (node
+        (ref "LEFT1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R10")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 12)
+      (name "OUT_BTN2")
+      (class "Default")
+      (node
+        (ref "R2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "4")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 13)
+      (name "OUT_BTN3")
+      (class "Default")
+      (node
+        (ref "R1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "3")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 14)
+      (name "POTX")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R5")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 15)
+      (name "POTY")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R6")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 16)
+      (name "RAPID")
+      (class "Default")
+      (node
+        (ref "RAPID1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "9")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 17)
+      (name "RESET")
+      (class "Default")
+      (node
+        (ref "J2")
+        (pin "5")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "10")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 18)
+      (name "RIGHT")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RIGHT1")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 19)
+      (name "RIGHT_GND")
+      (class "Default")
+      (node
+        (ref "R11")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "RIGHT1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 20)
+      (name "UNUSED_MCU")
+      (class "Default")
+      (node
+        (ref "U1")
+        (pin "11")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U1")
+        (pin "12")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U1")
+        (pin "13")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U1")
+        (pin "2")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 21)
+      (name "UNUSED_UPDI")
+      (class "Default")
+      (node
+        (ref "J2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J2")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 22)
+      (name "UP")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "9")
+        (pintype "PASSIVE"))
+      (node
+        (ref "JUMP1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "UP1")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 23)
+      (name "UP_GND")
+      (class "Default")
+      (node
+        (ref "R8")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "UP1")
+        (pin "1")
+        (pintype "PASSIVE")))))
